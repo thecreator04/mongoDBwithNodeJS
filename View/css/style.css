@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  header{
+    width: 100%;
+    height:60px;
+    background-color:yellow;
+  }
+  main{
+    width:100%;
+    height:2000px;
+    background-color: rgb(0, 0, 0);
+  }
+  footer{
+    width:100%;
+    height:350px;
+    background-color:#00688B
+  }
+  /* Estiliza��o para o texto que est� presente no header do site*/
+  #HeaderInfo{
+    font-family:arial;
+    font-size:40px;
+    color:black;
+  }
+  /*Estiliza��o que centraliza a div do texto no meio do header*/
+  #texto_header{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  /*estiliza��o para o container que cont�m os os componentes que descrevem a biblioteca Moment,js*/
+  #descriptionMomentJSContainer{
+    background-color:#0ab4ab;
+    color:white;
+    height: 150px;
+    width:100%
+  }
+  #CenarioContainer{
+    width:100%;
+    height:500px;
+    background-image:("imgBackground.png");
+  
+  }
+  /*estiliza��o da div que contem a imagem do moment.js e define o tamanho que ela vai ocupar do container da descri��o da biblioteca*/
+  #MomentImageContainer{
+    width:30%;
+    height: 200px;
+    background-color:"white";
+    float:right;
+    margin-top:80px
+  }
+  /*Estiliza��o da logo da biblioteca moment.js*/
+  #MomentImage{
+    width:100%;
+    
+  }
+  /*estiliza��o do texto que est� contido dentro do container de descri��o da bibliotca*/
+  .ContentText{
+    padding-top:100px;
+    margin-left:6%;
+    font-size: 20px;
+    width:50%;
+  }
+  #FestivalContainer{
+    width:90%;
+    float:left;
+    margin-left:10%;
+    margin-top:20px;
+  }
+  #textFestivalContainer{
+    margin-left:50%;
+    color:white
+  }
+  .bigText{
+    font-family:arial;
+    font-size:70px;
+    font-weight: bold;
+    position: relative;
+    color:white;
+    top:60px;
+    transform: translateY(-50%);
+    text-align: center;
+    
+    
+  }
+  .form4Updates{
+    margin-top:80px;
+    color:white;
+    width:50%;
+    height:300px;
+    background-color:red;
+    text-align:center;
+    margin-left:25%;
+    border-radius: 50px   ;
+  }
+  .form4Updates #email{
+    background-color:white;
+    margin-top:80px;
+    width:70%;
+    height:40px;
+    border-radius: 5px;
+    font-size:20px
+    
+  }
+  #tablewithEvents{
+    margin-left:10%;
+    width: 90%;
+    margin-left:5%;
+   
+margin-top:50px
+
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  table{
+    border-collapse: collapse;
+  }
+  td{
+    text-align:center
+  }
+  #cadastroButton{
+    background-color:blue;
+    width:50%;
+    height:100px;
+    color:white;
+    font-family:arial;
+    font-weight: bold;
+    font-size:18px;
+    margin-top:30px;
+    margin-left:25%
+
+  }
+  .infoFooter{
+  width:90%;
+  height:30px;
+  
+  margin-left:10%;
+  margin-top:100px;
+  
+  }
+  #imagesFooter{
+  width:70%;
+  height:80px;
+  background-color:black
+  
+  }
+  .infoFooter h3{
+    position:relative;
+    float:left;
+  padding-left:50px;
+  
+  }
+  #p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family:arial;
+  }
+  #button{
+  margin-top:40px;
+    width:20%;
+    height:40px;
+    background-color:blue;
+    color:white;
+    font-family:arial;
+    font-weight: bold;
+    font-size:18px
+  }
+  [data-anime]{
+    opacity: 0;
+    transition: .1s;
+  }
+
+  [data-anime="left"]{
+
+    transform:translate3d(-50px, 0, 0);
+  }
+ 
+
+  [data-anime].animate{
+
+    opacity:1; 
+    transform: translate3d(0px, 0px, 0px);
+  }
