@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const festivaisRouter = require('./routes/festivaisRoutes'); 
 const mongoose = require('mongoose')// Importa rota
 
-let url = 'mongodb+srv://thiagocazuni:24491372@cluster0.vzngj.mongodb.net/eventos?retryWrites=true&w=majority';
+let url = 'mongodb+srv://<USER>:<PASSWORD>@cluster0.vzngj.mongodb.net/<DB>?retryWrites=true&w=majority';
 
 let mongoDB = process.env.MONGODB_URI || url;
 mongoose.connect(mongoDB);
