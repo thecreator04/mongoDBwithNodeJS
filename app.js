@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const festivaisRouter = require('./routes/festivaisRoutes'); 
-const mongoose = require('mongoose')// Importa rota
+const mongoose = require('mongoose')
 
 let url = 'mongodb+srv://<USER>:<PASSWORD>@cluster0.vzngj.mongodb.net/<DB>?retryWrites=true&w=majority';
 
@@ -27,4 +27,3 @@ app.use(express.static(__dirname + '/View'));
 app.use(express.static(__dirname + '/public'));
 
 
-//app.listen(8081)// não pode ter nada abaixo desta linha
